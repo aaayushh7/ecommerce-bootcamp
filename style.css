@@ -270,9 +270,12 @@ h4{
     width: 100%;
     cursor: pointer;
     filter: grayscale(100%);
+    scale: 1;
+    transition: ease-in-out 0.3s;
 }
 .col-5 img:hover{
     filter: grayscale(0);
+    transform: translateY(-5px);
 }
 /*Footer*/
 .footer{
