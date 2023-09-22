@@ -450,10 +450,10 @@ th:last-child{
         position: absolute;
         top: 100px;
         left: 0;
-        background: #333;
+        background: #9e7a7a88;
         width: 100%;
         overflow: hidden;
-        transition: max-height 0.5s;
+        transition: max-height 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
     }
     nav ul li{
         display: block;
