@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <title>Foodilse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/My project.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="progress.html">About</a></li>
+                        <li><a href="progress.html">Contact</a></li>
+                        <li><a href="progress.html">Account</a></li>
+                    </ul>
+                </nav><a href="cart.html">
+                <img src="images/bag.png" width="30px" height="30px"></a>
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give yourself a break <br>from extra 5rs! <br>Delivery at ₹1Cr only!</h1>
+                    <p>Food is the substance we eat every day for energy and strength. There are many different
+                        types of
+                        food, such as fruits, vegetables, rice, and pasta.<br> We need to eat a variety of foods to get
+                        all the
+                        essential nutrients the body needs. Not eating a healthy and balanced diet leads to weakness
+                        and
+                        deficiency diseases. LOL.</p>
+                    <a href="products.html" class="btn">Explore now &nbsp; &#10142;</a>
+                    <p>*This is a tie-up with management teams, therefore unavailability of certain options of products is not a technical issue. </p>
+                </div>
+                <div class="col-2">
+                    <img src="images/pexels-nataliya-vaitkevich-4772850-removebg.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---Featured categories-->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/aloo.jpg">
+                </div>
+                <div class="col-3">
+                    <img src="images/chips-2.webp">
+                </div>
+                <div class="col-3">
+                    <img src="images/potato.jpg">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Featured products-->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href ="blue lays.html">
+                <img src="images/Blue lays.jpg">
+                <h4>Blue lays</h4>
+                <div class="rating">
+                    <p>★★★★</p>
+                </div>
+                <p>20/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="product details.html">
+                <img src="images/Green lays.jpg">
+                <h4>Green lays</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>20/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="red doritos.html">
+                <img src="images/product-jpeg-500x500.webp">
+                <h4>Red Doritos</h4>
+                <div class="rating">
+                    <p>★★★★</p>
+                </div>
+                <p>30/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="lays max bbq.html">
+                <img src="images/Lays Maxx - Sizzling Barbeque, 58 gm Pouch-750x750.jpeg">
+                <h4>Lays Max BBQ</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>30/-</p>
+                </a>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="pink cake.html">
+                <img src="images/cake.jpg">
+                <h4>Britania cake</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>25/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="chocolate cake.html">
+                <img src="images/cake2.webp">
+                <h4>Chocolate cake</h4>
+                <div class="rating">
+                    <p>★★★★</p>
+                </div>
+                <p>25/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="maggie.html">
+                <img src="images/71p4groYf4L._SX679_.jpg">
+                <h4>Maggie</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>10/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="notebook.html">
+                <img
+                    src="images/classmate-single-line-soft-notebook-172-pgs-product-images-o490062684-p490062684-2-202203142340.jpeg">
+                <h4>Classmate Notebook (Ruled)</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>60/-</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <a href="kurkure.html">
+                <img src="images/kurkure-masala-munch-90-g-product-images-o490003816-p490003816-0-202203171131.jpeg">
+                <h4>Kurkure</h4>
+                <div class="rating">
+                    <p>★★★★</p>
+                </div>
+                <p>20/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="cornitos.html">
+                <img src="images/40071518_7-cornitos-nacho-chips-peri-peri.webp">
+                <h4>Cornitos nacho</h4>
+                <div class="rating">
+                    <p>★★★★</p>
+                </div>
+                <p>30/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="krack.html">
+                <img
+                    src="images/parle-krack-jack-crackers-66-7-g-get-8-9-extra-product-images-o490000410-p490000410-0-202203170527.jpeg">
+                <h4>Krack Jack</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>10/-</p>
+                </a>
+            </div>
+            <div class="col-4">
+                <a href="hiden.html">
+                <img src="images/hide-n-seek-biscuit-500x500.webp">
+                <h4>Hide n Seek</h4>
+                <div class="rating">
+                    <p>★★★★★</p>
+                </div>
+                <p>30/-</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Offers-->
+    <div class="offer">
+        <div class="small-container"></div>
+        <div class="row">
+            <div class="col-2">
+                <img src="images/v72.png" class="offer-image">
+            </div>
+            <div class="col-2">
+                <p>Exclusively on Foodilse (Major Discount)</p>
+                <h1>Pilot v7</h1>
+                <small>Actually. You know what? Just this week we<br>shipped ten new boxes of these pens to Elon
+                Musk's<br> office.</small><br>
+                <a href="pilot.html" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+    <!--Testimonials-->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <p>"After using their previous websites and services, I can say, They always win our heart in the needs haha!" </p>
+                    <h3>Sa**l</h3>
+                </div>
+                <div class="col-3">
+                    <p>"Okay this website is way better than expected, probably a game chager"</p>
+                    <h3>An*s**a</h3>
+                </div>
+                <div class="col-3">
+                    <p>"One more reason for proving why paari is ahead than others!"</p>
+                    <h3>J*hn**</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Brands-->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/logo parle.jpeg">
+                </div>
+                <div class="col-5">
+                    <img src="images/logo pilot.jpeg">
+                </div>
+                <div class="col-5">
+                    <img src="images/Lays-Logo.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/BRITANNIA.png">
+                </div>
+                <div class="col-5">
+                    <img src="images/Classmate_Logo.jpeg">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>In progress! for Android and IOS</p>
+                    <p>Download Toh vaise bhi Nahi karna hai.</p>
+                    <div class="app-logo">
+                        <img src="images/app-store-png-logo-33107.png">
+                        <img src="images/google-play-png-logo-3802.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/Crop.png">
+                    <p>Why can't 'fameer fuddi' be Fameer Foodiee, Dil se.</p>
+                    <p>Why always BABU have all the "Thana"?</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Events</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Socials</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Linkedin</li>
+                        <li>Tumblr</li>
+                        <li>Pinterest</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Created by Ayush</p>
+        </div>
+    </div>
+    <!--JS for menu toggle-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px";
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
